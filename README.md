@@ -20,7 +20,7 @@ are located in "app/" subfolder.
 
 Standalone running application is deployed at
 
-http://mypokemons.16mb.com
+http://mypokemon.16mb.com
 
 and here at
 
