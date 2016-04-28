@@ -1,0 +1,106 @@
+.body {
+    padding: 10px 10px 10px 10px;
+}
+
+.panel {
+    border: 1px solid;
+    text-align: center;
+}
+
+.row-header {
+    margin: 20px 20px 20px 20px;
+}
+
+#loadmoreButton {
+    /*border-radius: 10px;*/
+    margin: 20px 0px 20px 0px;
+    min-width: 90px;
+
+}
+
+.table {
+    font-size: 3.0vmin;
+    text-align: center;
+}
+
+.label {
+    color: #000000;
+}
+
+.pokelabel4details {
+    font-size: 4.5vmin;
+}
+
+#pokename {
+    font-size: 16px;
+    text-align: center;
+}
+
+#pokelabel {
+    font-size: 16px;
+    text-align: center;
+    margin-right:5px;
+}
+
+#pokethumb {
+    width: 120px;
+    height: 120px;
+}
+
+#showalltypesbutton {
+    margin-right: 5px;
+    min-width: 120px;
+    max-width: 120px;
+    margin-bottom: 4%;
+}
+
+#filterbutton {
+    color: white;
+    margin-right: 5px;
+    min-width: 120px;
+    max-width: 120px;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 500px) {
+    #pokethumb {
+        width: auto;
+        height: auto;
+    }
+    #pokename {
+        font-size: 3.5vmin;
+        text-align: center;
+    }
+    #pokelabel {
+        font-size: 3.0vmin;
+        text-align: center;
+    }
+    .table {
+        font-size: 3.0vmin;
+    }
+    #tabledetails {
+        padding-left: 7.5%;
+    }
+}
+
+@media (max-width: 320px) {
+    #pokethumb {
+        width: auto;
+        height: auto;
+    }
+    #pokename {
+        font-size: 4vmin;
+        text-align: center;
+    }
+    #pokelabel {
+        font-size: 2.5vmin;
+        text-align: left;
+        margin-right:2px;
+    }
+    .table {
+        font-size: 2.75vmin;
+    }
+    #tabledetails {
+        padding-left: 7.5%;
+    }
+}
